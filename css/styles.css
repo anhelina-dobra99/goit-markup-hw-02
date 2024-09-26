@@ -22,17 +22,17 @@ ul li {
 .logo-accent {
   color: #2e2f42;
 }
-.menu-nav .menu-nav-item {
+.menu-nav-item {
   color: #2e2f42;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.menu-nav .menu-nav-item:hover,
-.menu-nav .menu-nav-item:focus {
+.menu-nav-item:hover,
+.menu-nav-item:focus {
   color: #404bbf;
 }
-.menu-nav .item-accent:active {
+.item-accent:active {
   color: #404bbf;
   text-decoration: underline;
 }
@@ -56,12 +56,14 @@ ul li {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
-  letter-spacing: 0, 02em;
+  letter-spacing: 0.02em;
   text-align: center;
 }
 .order-button {
+  font-family: "Roboto", sans-serif;
   color: #fff;
   background-color: #4d5ae5;
+  font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
