@@ -3,21 +3,6 @@ body {
   color: #434455;
   background-color: #fff;
 }
-h1,
-h2 {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11111;
-  letter-spacing: 0, 02em;
-  text-align: center;
-}
-h3 {
-  color: #2e2f42;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-}
 a {
   color: #2e2f42;
   text-decoration: none;
@@ -29,22 +14,19 @@ ul li {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16667;
-  letter-spacing: 0, 03em;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: #4d5ae5;
 }
 .logo-accent {
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 .menu-nav .menu-nav-item {
   color: #2e2f42;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0, 02em;
-}
-.menu-nav .item-accent {
-  font-weight: 400;
-  text-shadow: 0, 4px 4px 0 rgba(0, 0, 0, 0.25);
+  letter-spacing: 0.02em;
 }
 .menu-nav .menu-nav-item:hover,
 .menu-nav .menu-nav-item:focus {
@@ -54,11 +36,16 @@ ul li {
   color: #404bbf;
   text-decoration: underline;
 }
-.contacts-list .contact-item {
-  line-height: 1.5;
-  letter-spacing: 0, 02em;
+.contacts {
+  font-style: normal;
 }
-.contacts-list .contact-item:hover {
+.contacts .contact-item {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.contacts .contact-item:hover,
+.contacts .contact-item:focus {
   color: #404bbf;
 }
 .hero-image {
@@ -66,13 +53,18 @@ ul li {
 }
 .page-header {
   color: #fff;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0, 02em;
+  text-align: center;
 }
 .order-button {
   color: #fff;
   background-color: #4d5ae5;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0, 04em;
+  letter-spacing: 0.04em;
   cursor: pointer;
 }
 .order-button:hover,
@@ -80,13 +72,64 @@ ul li {
 .order-button:active {
   background-color: #404bbf;
 }
+.section-header {
+  color: #2e2f42;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+}
+.feature {
+  color: #2e2f42;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.feature-dscpr {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.team-section {
+  background-color: #f4f4fd;
+}
+.team-member-card {
+  background-color: #ffffff;
+}
 .team-member-name {
+  color: #2e2f42;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
   text-align: center;
 }
 .team-member-occupation {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   text-align: center;
+}
+.service {
+  color: #2e2f42;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.service-type {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .page-footer {
   background-color: #2e2f42;
+}
+.footer-logo-accent {
+  color: #f4f4fd;
+}
+.footer-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #f4f4fd;
 }
